@@ -1,0 +1,6 @@
+framework module SDExtension {
+  umbrella header "SDExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

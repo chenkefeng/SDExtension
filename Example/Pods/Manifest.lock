@@ -1,0 +1,16 @@
+PODS:
+  - SDExtension (0.1.0)
+
+DEPENDENCIES:
+  - SDExtension (from `../`)
+
+EXTERNAL SOURCES:
+  SDExtension:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SDExtension: 8306b60c221ac2bffdc99f2ed918f472da6510ec
+
+PODFILE CHECKSUM: f272faedc75d7d5927c8027e1afe75027ae3f450
+
+COCOAPODS: 1.4.0
