@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import SDExtension
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        print(UIApplication.cacheDir.value, UIApplication.documentDir.value)
+        print(#function)
+        
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        UIApplication.shared.switchRootVc(BViewController())
     }
 
     override func didReceiveMemoryWarning() {

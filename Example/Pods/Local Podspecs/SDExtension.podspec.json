@@ -1,6 +1,6 @@
 {
   "name": "SDExtension",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "常用扩展",
   "homepage": "https://github.com/chenkefeng/SDExtension",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/chenkefeng/SDExtension.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "swift_version": "4.1",
   "platforms": {

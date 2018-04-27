@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		60DEE7DD7888D8AEE069EFB7 /* Pods_SDExtension_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788DEEC8697AA827E8D7960A /* Pods_SDExtension_Example.framework */; };
+		89ABF7122092C04F00CCDCEA /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ABF7112092C04F00CCDCEA /* BViewController.swift */; };
 		95236557E8E2886605FFF5FE /* Pods_SDExtension_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4196CC2FACC6E143DE74E71 /* Pods_SDExtension_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		6DD2E0DCD108EFFDE3C2A0DB /* Pods-SDExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDExtension_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDExtension_Tests/Pods-SDExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		70478A80A11E72975055374B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		788DEEC8697AA827E8D7960A /* Pods_SDExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89ABF7112092C04F00CCDCEA /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 		8E2BFF8BBA1FED38097589D5 /* Pods-SDExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDExtension_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDExtension_Tests/Pods-SDExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C243936200DE64AC1D9D7930 /* SDExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SDExtension.podspec; path = ../SDExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E4196CC2FACC6E143DE74E71 /* Pods_SDExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +112,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				89ABF7112092C04F00CCDCEA /* BViewController.swift */,
 			);
 			name = "Example for SDExtension";
 			path = SDExtension;
@@ -371,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				89ABF7122092C04F00CCDCEA /* BViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

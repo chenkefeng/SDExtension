@@ -1,5 +1,5 @@
 PODS:
-  - SDExtension (0.0.1)
+  - SDExtension (0.0.2)
 
 DEPENDENCIES:
   - SDExtension (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SDExtension: 6300cfeeff66190b502f4aa70479527706ee75e6
+  SDExtension: ff0e760b6b729018879514a4f11150f657888ad3
 
 PODFILE CHECKSUM: f272faedc75d7d5927c8027e1afe75027ae3f450
 
