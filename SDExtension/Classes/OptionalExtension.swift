@@ -9,22 +9,22 @@
 import Foundation
 
 extension Optional where Wrapped == String {
-    var isNilOrEmpty: Bool {
+    public var isNilOrEmpty: Bool {
         return self == nil ? true : self!.isEmpty
     }
-    var value: String {
+    public var value: String {
         return self == nil ? "" : self!
     }
-    var count: Int {
+    public var count: Int {
         return self == nil ? 0 : self!.count
     }
 }
 
 extension Optional where Wrapped: Collection {
-    var isNilOrEmpty: Bool {
+    public var isNilOrEmpty: Bool {
         return self == nil ? true : self!.isEmpty
     }
-    var count: Int {
+    public var count: Int {
         return self == nil ? 0 : self!.count
     }
 }
